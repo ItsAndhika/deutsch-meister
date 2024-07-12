@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={chivo.variable}>{children}</body>
+			<body className={chivo.className}>{children}</body>
 		</html>
 	);
 }

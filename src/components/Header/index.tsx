@@ -9,7 +9,7 @@ const Header = () => {
 				<LanguageIcon props={"w-6 h-6"} />
 				<h1 className="font-semibold">Deutsch Meister</h1>
 			</Link>
-			<Button>Start Learning</Button>
+			<Button variant={"secondary"}>Start Learning</Button>
 		</header>
 	);
 };
